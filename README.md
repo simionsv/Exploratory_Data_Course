@@ -2,7 +2,7 @@
 Project_1
 
 
-#####This project utilized data from the UC Irvine Machine Learning Repository, a popular repository for machine learning datasets. It was used the “Individual household electric power consumption Data Set” using data from the dates 2007-02-01 and 2007-02-02 the file was obatined from the address below 
+#####This project utilized data from the UC Irvine Machine Learning Repository, a popular repository for machine learning datasets. It was used the “Individual household electric power consumption Data Set” using data from the dates 2007-02-01 and 2007-02-02 the file was obtained from the address below 
 
     Dataset: Electric power consumption [20Mb]
 
