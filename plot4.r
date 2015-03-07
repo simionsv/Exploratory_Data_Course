@@ -1,23 +1,15 @@
 
 
-setwd("C:/Users/Sergio Simioni/Desktop/Data_Science/Exploratory_data_analysis/")
-
 household_power_consumption <- read.csv("./household_power_consumption.txt", colClasses="character", sep=";")
-
 
 library(lubridate)
 library(dplyr)
 
-
 house<- household_power_consumption
 house$Date<- as.Date((house$Date),"%d/%m/%Y")
 
-head(house)
-
 house_1<- filter(house, Date=="2007-02-01")
-
 house_2<- filter(house, Date=="2007-02-02")
-
 household<- rbind(house_1,house_2)
 
 household$Global_active_power<- as.numeric(household$Global_active_power)
