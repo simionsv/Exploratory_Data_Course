@@ -1,58 +1,18 @@
 ####Exploratory_Data_Course
 Project_1
 
-
-This project utilized data from the UC Irvine Machine Learning Repository, a popular repository 
-for machine learning datasets. It was used the “Individual household electric power consumption 
-Data Set” using data from the dates 2007-02-01 and 2007-02-02. The file was obtained from the 
-address below 
-
-    Dataset: Electric power consumption [20Mb]
-
-#####Description: 
-
-Measurements of electric power consumption in one household with a one-minute sampling rate over a period 
-of almost 4 years. Different electrical quantities and some sub-metering values are available.
-
-The following descriptions of the  variables in the dataset are taken from the UCI web site:
-
-    Global_active_power: household global minute-averaged active power (in kilowatt)
-    Global_reactive_power: household global minute-averaged reactive power (in kilowatt)
-    Voltage: minute-averaged voltage (in volt)
-    Global_intensity: household global minute-averaged current intensity (in ampere)
-    Sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). 
-    It corresponds to the kitchen, containing mainly a dishwasher, an oven and a 
-    microwave (hot plates are not electric but gas powered).
-    Sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). 
-    It corresponds to the laundry room, containing a washing-machine, a tumble-drier, 
-    a refrigerator and a light.
-    Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). 
-    It corresponds to an electric water-heater and an air-conditioner.
- 3 commits
-1 branch
-0 releases
-
-    1 contributor
-
-This branch is even with rdpeng:master
-
-Pull Request
-
-    Compare
-
-Forgot to add figures to repo
-latest commit 73fe5c675a
-Roger D. Peng rdpeng authored on 25 Feb 2014
-	figure 	Forgot to add figures to repo 	a year ago
-	README.md 	Update README with instructions 	a year ago
-README.md
 Introduction
 
-This assignment uses data from the UC Irvine Machine Learning Repository, a popular repository for machine learning datasets. In particular, we will be using the "Individual household electric power consumption Data Set" which I have made available on the course web site:
+This assignment uses data from the UC Irvine Machine Learning Repository, a popular 
+repository for machine learning datasets. In particular, we will be using the 
+"Individual household electric power consumption Data Set" which I have made 
+available on the course web site:
 
     Dataset: Electric power consumption [20Mb]
 
-    Description: Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available.
+    Description: Measurements of electric power consumption in one household with a 
+    one-minute sampling rate over a period of almost 4 years. Different electrical 
+    quantities and some sub-metering values are available.
 
 The following descriptions of the 9 variables in the dataset are taken from the UCI web site:
 
@@ -62,9 +22,14 @@ The following descriptions of the 9 variables in the dataset are taken from the 
     Global_reactive_power: household global minute-averaged reactive power (in kilowatt)
     Voltage: minute-averaged voltage (in volt)
     Global_intensity: household global minute-averaged current intensity (in ampere)
-    Sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
-    Sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
-    Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
+    Sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). 
+    It corresponds to the kitchen, containing mainly a dishwasher, an oven and 
+    a microwave (hot plates are not electric but gas powered).
+    Sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). 
+    It corresponds to the laundry room, containing a washing-machine, a tumble-drier, 
+    a refrigerator and a light.
+    Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). 
+    It corresponds to an electric water-heater and an air-conditioner.
 
 Loading the data
 
